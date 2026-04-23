@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRM (Customer Relationship Management)</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/choices.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media_1023.98.css">
+  <link rel="stylesheet" href="css/media_767.98.css">
+  <link rel="stylesheet" href="css/media_575.98.css">
+  <link rel="icon" href="img/header/skb_1024.png" type="image/x-icon">
+  <script  src="https://unpkg.com/@popperjs/core@2"></script>
+  <script  src="https://unpkg.com/tippy.js@6"></script>
+  <script  src="js/imasked.min.js"></script>
+  <script  src="js/choices.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container flex ">
+      <a href="" class="header__logo">
+        <img src="img/header/skb_1024.png" alt="skb-logo" class="header__img"></a>
+      <form class="header__search" id="searchForm">
+        <div class="header__inner">
+          <input type="text" class="header__search-input" id="autocomplete" autocomplete="off" placeholder="Введите запрос ">
+          <div class="header__search-list hide"></div>
+        </div>
+      </form>
+    </div>            
+  </header>
+
+  <main class="main">
+    <section class="clients">
+      <div class="container clients__container flex">
+        <h2 class="clients__heading">Клиенты</h2>
+        <div class="clients__table"></div>
+        </div>
+        <div class="clients__btn-box flex">
+          <button class="btn-reset btn clients__btn-client flex">
+            <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.5 8C16.71 8 18.5 6.21 18.5 4C18.5 1.79 16.71 0 14.5 0C12.29 0 10.5 1.79 10.5 4C10.5 6.21 12.29 8 14.5 8ZM5.5 6V3H3.5V6H0.5V8H3.5V11H5.5V8H8.5V6H5.5ZM14.5 10C11.83 10 6.5 11.34 6.5 14V16H22.5V14C22.5 11.34 17.17 10 14.5 10Z"
+                fill="#9873FF" />
+            </svg>
+            Добавить клиента</button>
+        </div>
+    </section>
+  </main>
+</body>

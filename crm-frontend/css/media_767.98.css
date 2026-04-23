@@ -1,0 +1,46 @@
+@media (max-width: 767.98px) {
+
+  .header__container {
+    justify-content: center;
+    padding: 8px;
+  }
+
+  .header__search {
+    display: none;
+  }
+
+  .header__logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .clients__container {
+    padding: 30px 10px 10px 10px;
+    overflow-x: scroll;
+  }
+
+  .clients__container::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .clients__table {
+    width: 768px;
+    padding: 0 20px;
+  }
+
+  .clients__table-data {
+    overflow-x: scroll;
+  }
+
+  .clients__table-data::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .clients__heading{
+    padding: 0 20px;
+  }
+  
+  .clients__td-contacts {
+    max-width: 120px;
+}
+}

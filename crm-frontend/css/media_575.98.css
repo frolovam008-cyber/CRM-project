@@ -1,0 +1,28 @@
+@media (max-width: 575.98px) {
+.header__logo {
+  width: 24px;
+  height: 24px;
+ }
+
+ .modal{
+  min-width: 300px;
+  min-height: 215px;
+}
+
+.modal__title {
+  padding: 22px 15px 11px 15px;
+}
+
+.choices{
+  width: 180px;
+}
+
+.choices__inner {
+ width: 100%;
+}
+
+.modal__text {
+  padding-bottom: 25px;
+}
+
+}
