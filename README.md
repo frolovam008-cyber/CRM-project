@@ -65,9 +65,9 @@ Demonstrates real-world frontend ↔ backend interaction using REST API.
 ### 🧾 Key Screens
 
 <p align="center">
-  <img src="./crm-frontend/assets/change.jpeg" width="260"/>
-  <img src="./crm-frontend/assets/delete.jpeg" width="260"/>
-  <img src="./crm-frontend/assets/filter.jpeg" width="260"/>
+  <img src="./crm-frontend/assets/change.jpeg" height="260" width="260"/>
+  <img src="./crm-frontend/assets/delete.jpeg" height="260" width="260"/>
+  <img src="./crm-frontend/assets/filter.jpeg" height="260" width="260"/>
 </p>
 
 ---
