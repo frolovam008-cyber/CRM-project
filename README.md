@@ -57,7 +57,7 @@ Demonstrates real-world frontend ↔ backend interaction using REST API.
 ### 🚀 Live Demo
 
 <p align="center">
-  <img src="./assets/demo.gif" width="800"/>
+  <img src="./crm-frontend/assets/demo.gif" width="800"/>
 </p>
 
 ---
@@ -65,63 +65,58 @@ Demonstrates real-world frontend ↔ backend interaction using REST API.
 ### 🧾 Key Screens
 
 <p align="center">
-  <img src="./assets/change.png" width="260"/>
-  <img src="./assets/delete.png" width="260"/>
-  <img src="./assets/filter.png" width="260"/>
+  <img src="./crm-frontend/assets/change.png" width="260"/>
+  <img src="./crm-frontend/assets/delete.png" width="260"/>
+  <img src="./crm-frontend/assets/filter.png" width="260"/>
 </p>
 
 ---
 
-## 📁 Project Structure
+## 🚀 Getting Started
 
-crm-project/
- ├──crm-frontend/
- │    ├── index.html
- │    ├── js/
- │    ├── css/
- │    ├── assets/
+### 1. Backend
 
- ├── crm-backend/
- │    ├── index.js
- │
- ├── README.md
-
-
-
- 🚀 Getting Started
-
-1. Backend
+```bash
 cd crm-backend
 npm install
 npm start
+```
 
-📍 Runs on:
+📍 Runs on: http://localhost:3000
 
-http://localhost:3000
 
-2. Frontend
+### 2. Frontend
+```bash
 cd crm-frontend
 npx serve .
+```
 
 📍 Open the URL shown in terminal.
 
-🔌 API Endpoints
-GET /api/clients - Get all clients
-POST /api/clients - Create client
-PATCH /api/clients/{id} - Update client
-DELETE /api/clients/{id} - Delete client
+---
 
-🎯 Project Goal
+## 🔌 API Endpoints
+
+- GET `/api/clients` — Get all clients  
+- POST `/api/clients` — Create client  
+- PATCH `/api/clients/{id}` — Update client  
+- DELETE `/api/clients/{id}` — Delete client  
+
+---
+
+## 🎯 Project Goal
 
 This project was built to practice real-world application development:
 
-Client-server communication
-CRUD operations
-REST API integration
-Dynamic UI updates without page reload
+- Client-server communication  
+- CRUD operations  
+- REST API integration  
+- Dynamic UI updates without page reload  
 
+---
 
-📌 Future Improvements
+## 📌 Future Improvements
+
 Possible directions for future development:
 
 - Migration to React / TypeScript for better scalability
@@ -130,9 +125,9 @@ Possible directions for future development:
 - UI/UX improvements for better user experience
 
 
-👩‍💻 Author
+## 👩‍💻 Author
 
-Marina Frolova
-Frontend Developer
+*Marina Frolova*<br>
+**Frontend Developer**
 
 <p align="center"> ⭐ If you like this project — give it a star! </p>
